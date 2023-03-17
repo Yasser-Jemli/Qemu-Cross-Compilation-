@@ -31,7 +31,7 @@ Unix cross compiler naming conventions can seem mystifying. If you search for an
 
 Are you trying to build a single binary, or a whole system? Tools like Buildroot and Yacto will build an entire system image including the OS and common utilities for a cross compilation target.
 <h1 align="center">Walkthrough of Testing RaspberryPi Cross Compiling with QEMU</h1>
-<h3 align="left">Picking the Compilers</h3>
+<h2 align="left">Picking the Compilers</h2>
 <h4 align="left">Building Binaries</h4>
 I recently needed to test a code base to see if there were issues cross compiling for the RaspberryPi.
 
