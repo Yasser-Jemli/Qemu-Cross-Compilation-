@@ -1,11 +1,13 @@
-# Qemu-Cross-Compilation
+<h1 align="center">Qemu_Cross_Compilation</h1>
+
 
 Testing Cross Compiling with QEMU
 Having to frequently set up cross-compilers, I figured it would be interesting to write out my current understanding and see what gaps I have. I found it educational to set up some very basic tests with QEMU to see if things actually work like I’d expect.
 
 I’m by no means an expert here, so I’m sure I’m going to show my ignorance a bit, since this covers a pretty large range of topics that I only have peripheral knowledge of.
 
-What is Cross Compiling?
+<h1 align="left">What is Cross Compiling?</h1>
+
 For compiled languages like C/C++ the compiler takes the source code and translates it into processor instructions. Typically, the compiled software is meant to run on machines similar to the one that did the compiling. Targeting a different sort of system is cross compiling.
 
 A lot of my initial confusion came from the wide variety of cross compiling scenarios that occur.
@@ -19,7 +21,8 @@ Basically it comes down to whether the OS can correctly interpret the layout of 
 
 I found https://elinux.org/images/1/15/Anatomy_of_Cross-Compilation_Toolchains.pdf to be a good primer of more of the details of what Linux tools are included in a cross compiler.
 
-Choosing a Cross Compiler
+<h1 align="left">Choosing a Cross Compiler </h1>
+
 Choosing a cross compiler mostly comes down to understanding the system where you want to run your binary.
 
 Are there well supported application specific toolchains? For instance Android Studio, or the Arduino IDE. Since these are already tuned for the common used cases, they are a lot easier to set up then more flexible toolchains.
